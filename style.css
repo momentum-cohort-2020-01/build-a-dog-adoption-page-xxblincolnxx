@@ -28,9 +28,9 @@ main {
     padding-left:20px;
 }
 
-.new-row {
+/* .new-row {
     clear: left
-}
+} */
 
 /* .container {
     display: flex;
@@ -84,11 +84,23 @@ main {
     background-color: pink;
 }
 
-.container {
+.footer-container {
     /* clear: left; */
-    align-items:stretch;
-    /* justify-content: space-between; */
     display: flex;
+    align-items:stretch;
+    height: 400px;
+    width: 100%;
+    
+}
+.foot-button {
+    /* float:left; */
+    height: 100%;
+    /* background-color:blue; */
+    width:33.33333%;
+    text-align:center;
+    font-size:50px;
+    padding-top: 150px;
+    background-size: cover;
 }
 
 .foot-button a {
@@ -99,16 +111,6 @@ main {
 
 .foot-button a:hover {
     text-decoration: underline;
-}
-
-.foot-button {
-    /* float:left; */
-    height: 400px;
-    /* background-color:blue; */
-    /* width:33%; */
-    text-align:center;
-    font-size:50px;
-    padding-top: 150px;
 }
 
 .donate {

@@ -5,6 +5,14 @@
     font-family: 'open sans';
 }
 
+img {
+    max-width:100%;
+}
+
+/* NOTE TO REBBECCA/AMY - I MADE THIS WORK WITH 'FLOAT' 
+AND 'CLEAR LEFT' THEN DECIDED TO SWITCH IT ALL TO 
+FLEX-BOX. I JUST COMMENTED OUT THE OLD STUFF SO THAT'S
+WHAT'S GOING ON. */
 
 .heading {
     color: white;
@@ -16,7 +24,7 @@
     height: 100px;
 }
 
-main {
+main {  
     padding-left:20px;
 }
 
@@ -32,11 +40,16 @@ main {
     margin-bottom: 10px;
 }
 
+.doggo-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .doggo {
     width: 33%;
     Height: contain;
     /* background-color: red; */
-    float: left;
+    /* float: left; */
     padding: 10px;
     margin-bottom: 40px;
 }
@@ -54,12 +67,14 @@ main {
 .doggo ul {
     list-style-type: none;
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .doggo li {
     background-color: lightblue;
     border-radius: 8px;
-    float:left;
+    /* float:left; */
     margin: 5px;
     padding: 3px;
     font-size: 12px;
@@ -70,7 +85,7 @@ main {
 }
 
 .container {
-    clear: left;
+    /* clear: left; */
     align-items:stretch;
     /* justify-content: space-between; */
     display: flex;
@@ -87,10 +102,10 @@ main {
 }
 
 .foot-button {
-    float:left;
+    /* float:left; */
     height: 400px;
-    background-color:blue;
-    width:33%;
+    /* background-color:blue; */
+    /* width:33%; */
     text-align:center;
     font-size:50px;
     padding-top: 150px;

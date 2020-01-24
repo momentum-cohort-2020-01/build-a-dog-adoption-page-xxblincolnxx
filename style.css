@@ -69,9 +69,10 @@ main {
     background-color: pink;
 }
 
-footer {
+.container {
     clear: left;
-    justify-content: space-between;
+    align-items:stretch;
+    /* justify-content: space-between; */
     display: flex;
 }
 
